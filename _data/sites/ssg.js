@@ -13,9 +13,9 @@ module.exports = {
 		freshChrome: "run"
 	},
 	urls: [
-		"https://www.11ty.dev/",
-		"https://www.gatsbyjs.com/",
-		"https://gohugo.io/",
+		"https://www.skims.com/",
+		"https://www.bananarepublic.com/",
+		"https://forever21.com",
 		"https://nextjs.org/",
 		"https://nuxt.com/",
 		"https://gridsome.org/",
