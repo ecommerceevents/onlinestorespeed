@@ -1,9 +1,6 @@
 module.exports = {
 	name: "SSG", // optional, falls back to object key
 	description: "Static Site Generator web sites",
-	// skip if localhost
-	// skip if this is a new fork of the speedlify (not Zach’s)
-	skip: !process.env.CONTEXT || process.env.SITE_NAME !== "speedlify",
 	options: {
 		frequency: 60 * 23, // 24 hours
 		// Use "run" if the sites don’t share assets on the same origin
@@ -14,18 +11,16 @@ module.exports = {
 	},
 	urls: [
 		"https://www.skims.com/",
-		"https://www.bananarepublic.com/",
-		"https://forever21.com",
-		"https://nextjs.org/",
-		"https://nuxt.com/",
-		"https://gridsome.org/",
-		"https://vuepress.vuejs.org/",
-		"https://docusaurus.io/",
-		"https://astro.build/",
-		"https://jekyllrb.com/",
-		"https://hexo.io/",
-		"https://kit.svelte.dev/",
-		"https://remix.run/",
-		"https://record-collector.net/",
+		"https://stevemadden.com",
+		"https://sanrio.com",
+		"https://bodybuilding.com",
+		"https://glossier.com",
+		"https://rarebeauty.com",
+		"https://mccormick.com",
+		"https://manscaped.com",
+		"https://neweracap.com",
+		"https://goodamerican.com",
+		"https://flexsealproducts.com",
+		"https://bareminerals.com",
 	]
 };
